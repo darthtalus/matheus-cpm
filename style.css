@@ -1,10 +1,20 @@
 body{
     background-color: #AED8CC;
 }
+h2{
+    font-family:'Courier New', Courier, monospace;
+    color:burlywood;
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 h1{
     text-align: center;
     background-color: #5B9A8B;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #cap-1{

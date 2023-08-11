@@ -1,5 +1,5 @@
 body{
-    background-color: #AED8CC;
+    background-image: url("./assets/images/9219.jpg");
 }
 h2{
     font-family:'Courier New', Courier, monospace;
@@ -31,4 +31,5 @@ h1{
 
 #cap-3{
     text-align: center;
-    background-color: #461959
+    background-color: #461959;
+}

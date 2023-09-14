@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>MATHEUS CPM</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div class="page1">
+    <h1>A SAGA DE MATHEUS CPM</h1>
+    <h2 id="cap-3">Capítulo 3 - O estupro era uma opção</h2>    <div class="textimg">
+    <img id="mainImage" src="./assets/images/vaselavar2.png" height="400"/>
+    
+    <p>Matheus, assim como todo vampiro, havia sentidos apurados.<br><br>
+       Ele conseguia sentir o cheiro de um pipiu menstruado há quilometros de distância.<br><br>
+       Matheus sabia que a 13ª estava menstruada, sem nem mesmo ela precisar tirar a calcinha, foi então que ele bolou um plano.<br><br>
+       Matheus a atraiu para o seu covil e a embebedou, para caso ela não aceitasse transar com ele estando sóbrea, a estupraria.<br><br> 
+       Ele não bebeu para ficar em plena faculdade dos seus sentidos.<br><br><br><br><br><br>
+       Continua...
+    </p>
+    </div>
+    
+    <div class="rodape">
+    <a href="./cap2.html"><button>&#9664; Anterior </button></a>
+    <button id="toggleFeatures">Melar de Pipiu Menstruado</button>
+    <a href="./index.html"><button>Próxima &#9654; </button></a>
+    </div>
+    </div>
+
+
+
+
+    <script>
+        let isToggled = false;
+    
+        document.getElementById("toggleFeatures").addEventListener("click", function() {
+            if (isToggled) {
+                document.body.style.backgroundImage = "";
+                document.getElementById("mainImage").src = "./assets/images/vaselavar2.png";
+            } else {
+                document.body.style.backgroundImage = "url('./assets/images/9219.jpg')";
+                document.getElementById("mainImage").src = "./assets/images/123.jpg";
+            }
+            isToggled = !isToggled;
+        });
+    </script>
+    
+</body>    
+
+</html>

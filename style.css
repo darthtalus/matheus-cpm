@@ -15,7 +15,11 @@ body{
         width: 90%;
         grid-template-columns: 1fr;
     }
-
+    
+    h1{
+    font-size: 0.9em; /* diminui o tamanho da fonte */
+        margin: 10px 0; /* ajusta a margem */
+    }
     .textimg {
         display: flex; /* Mudança aqui */
         flex-direction: column;

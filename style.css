@@ -16,10 +16,10 @@ body{
         grid-template-columns: 1fr;
     }
     
-    /* h1, h2{
+    h1, h2{
     font-size: 0.9rem; 
         margin: 10px 0; 
-    } */
+    } 
     
     .textimg {
         display: flex; /* Mudança aqui */

@@ -6,6 +6,7 @@ body{
       justify-content: center;
       margin: 0;
       padding: 0;
+      background-position: center;
 }
 
 
@@ -28,10 +29,10 @@ body{
         margin: 10px 0;
     }
 
-    p {
+    /* p {
         font-size: 0.9em;
         margin: 10px 0;
-    }
+    } */
 
     button {
         font-size: 16px;

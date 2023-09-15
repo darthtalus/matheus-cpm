@@ -29,8 +29,11 @@ body{
         font-size: 0.9em; /* diminui o tamanho da fonte */
         margin: 10px 0; /* ajusta a margem */
     }
-    h1, h2{
-        height: auto;
+    h1{
+        height: 50px;
+    }
+    h2{
+        height: 30px;
     }
 
 

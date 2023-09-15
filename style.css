@@ -8,16 +8,39 @@ body{
       padding: 0;
 }
 
-@media (max-width: 1250px) {
-    
-     .textimg{
-        flex-direction: column;
-     }
-    img{
-        object-fit:cover;
-    } 
-    
-     }
+@media (max-width: 768px) {
+    .page1 {
+        width: 90%; /* torna a largura um pouco menor que a tela */
+        grid-template-columns: 1fr; /* uma única coluna */
+    }
+
+    .textimg {
+        flex-direction: column; /* coloca imagem e texto um acima do outro */
+        align-items: center; /* centraliza o conteúdo */
+    }
+
+    img {
+        width: 100%; /* ocupa toda a largura */
+        height: auto; /* mantém a proporção da imagem */
+        margin: 10px 0; /* adiciona uma pequena margem ao topo e fundo */
+    }
+
+    h1, p {
+        font-size: 0.9em; /* diminui o tamanho da fonte */
+        margin: 10px 0; /* ajusta a margem */
+    }
+
+    button {
+        font-size: 16px; /* diminui o tamanho da fonte do botão */
+        margin: 5px 2px; /* ajusta a margem do botão */
+        padding: 5px 10px; /* ajusta o padding do botão */
+    }
+
+    .rodape {
+        flex-direction: column; /* botões um abaixo do outro */
+        align-items: center; /* centraliza os botões */
+    }
+}
 
 .page1{
     display: grid;
@@ -74,6 +97,7 @@ h1{
     grid-column: span 10;
     border-radius: 5px;
 }
+
 a{
     margin: 0;
     padding: 0;
@@ -98,6 +122,7 @@ a{
     text-align: center;
     background-color:darkcyan;
 }
+
 .rodape{
     margin-top: 20px;
     height: 50px;
@@ -107,6 +132,7 @@ a{
     background-color: #461959;
     border-radius: 5px;
 }
+
 button{
     font-family:'Courier New', Courier, monospace;
     font-weight: bolder;
@@ -121,7 +147,7 @@ button{
     margin-left: 10px;
     padding: 5px;
 }
+
 button:hover {
 	background-color:#CD6688;
 }
-

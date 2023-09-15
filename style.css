@@ -8,6 +8,7 @@ body{
       padding: 0;
 }
 
+
 @media (max-width: 768px) {
     .page1 {
         width: 90%; /* torna a largura um pouco menor que a tela */
@@ -24,19 +25,14 @@ body{
         height: auto; /* mantém a proporção da imagem */
         margin: 10px 0; /* adiciona uma pequena margem ao topo e fundo */
     }
+    body{
+        height: 0;
+    }
 
     p {
         font-size: 0.9em; /* diminui o tamanho da fonte */
         margin: 10px 0; /* ajusta a margem */
     }
-    h1{
-        height: 50px;
-    }
-    h2{
-        height: 30px;
-    }
-
-
 
     button {
         font-size: 16px; /* diminui o tamanho da fonte do botão */

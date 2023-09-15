@@ -27,16 +27,19 @@ body{
     }
 
     img {
-        width: 100%;
+        width: 95%;
         max-width: 400px; /* Adicione essa linha */
         height: auto;
         margin: 10px 0;
     }
 
-    /* p {
-        font-size: 0.9em;
-        margin: 10px 0;
-    } */
+    p {
+        /* font-size: 0.9em; */
+        /* margin: 10px 0; */
+
+        padding: 30px;
+        margin-left: 0px;
+    }
 
     button {
         font-size: 16px;
@@ -46,7 +49,7 @@ body{
 
     .rodape {
         display: flex; /* Mudança aqui */
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
 

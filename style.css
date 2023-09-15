@@ -8,6 +8,17 @@ body{
       padding: 0;
 }
 
+@media (max-width: 1250px) {
+    
+     .textimg{
+        flex-direction: column;
+     }
+    img{
+        object-fit:cover;
+    } 
+    
+     }
+
 .page1{
     display: grid;
     height: 100%;
@@ -19,7 +30,7 @@ body{
 }
 .textimg{
     display: inline-flex;
-    grid-column: span 10 ;
+    grid-column: span 10;
 }
 
 img{

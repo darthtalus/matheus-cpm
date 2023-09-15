@@ -25,10 +25,15 @@ body{
         margin: 10px 0; /* adiciona uma pequena margem ao topo e fundo */
     }
 
-    h1, p {
+    p {
         font-size: 0.9em; /* diminui o tamanho da fonte */
         margin: 10px 0; /* ajusta a margem */
     }
+    h1, h2{
+        height: auto;
+    }
+
+
 
     button {
         font-size: 16px; /* diminui o tamanho da fonte do botão */

@@ -11,48 +11,48 @@ body{
 
 @media (max-width: 768px) {
     .page1 {
-        width: 90%; /* torna a largura um pouco menor que a tela */
-        grid-template-columns: 1fr; /* uma única coluna */
+        width: 90%;
+        grid-template-columns: 1fr;
     }
 
     .textimg {
-        flex-direction: column; /* coloca imagem e texto um acima do outro */
-        align-items: center; /* centraliza o conteúdo */
+        display: flex; /* Mudança aqui */
+        flex-direction: column;
+        align-items: center;
     }
 
     img {
-        width: 100%; /* ocupa toda a largura */
-        height: auto; /* mantém a proporção da imagem */
-        margin: 10px 0; /* adiciona uma pequena margem ao topo e fundo */
-    }
-    body{
-        height: 0;
+        width: 100%;
+        max-width: 400px; /* Adicione essa linha */
+        height: auto;
+        margin: 10px 0;
     }
 
     p {
-        font-size: 0.9em; /* diminui o tamanho da fonte */
-        margin: 10px 0; /* ajusta a margem */
+        font-size: 0.9em;
+        margin: 10px 0;
     }
 
     button {
-        font-size: 16px; /* diminui o tamanho da fonte do botão */
-        margin: 5px 2px; /* ajusta a margem do botão */
-        padding: 5px 10px; /* ajusta o padding do botão */
+        font-size: 16px;
+        margin: 5px 2px;
+        padding: 5px 10px;
     }
 
     .rodape {
-        flex-direction: column; /* botões um abaixo do outro */
-        align-items: center; /* centraliza os botões */
+        display: flex; /* Mudança aqui */
+        flex-direction: column;
+        align-items: center;
     }
 }
 
 .page1{
     display: grid;
     height: 100%;
-    width: 900px;
+    max-width: 900px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    
+    width: 100%;
 
 }
 .textimg{

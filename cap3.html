@@ -29,6 +29,8 @@
     </div>
 
 
+    <audio id="soundEffect" src="./assets/audio/cheiro.mp3" preload="auto"></audio>
+
 
 
     <script>
@@ -37,11 +39,17 @@
         document.getElementById("toggleFeatures").addEventListener("click", function() {
             if (isToggled) {
                 document.body.style.backgroundImage = "";
-                document.getElementById("mainImage").src = "./assets/images/vaselavar2.png";
+                document.getElementById("mainImage").src = "./assets/images/crepusculo.png";
             } else {
                 document.body.style.backgroundImage = "url('./assets/images/9219.jpg')";
                 document.getElementById("mainImage").src = "./assets/images/123.jpg";
+                
+                
+                let audio = document.getElementById("soundEffect");
+                audio.currentTime = 0;
+                audio.play();
             }
+            
             isToggled = !isToggled;
         });
     </script>
